@@ -1,0 +1,183 @@
+/**
+* variables:
+* default-opensounrce-green: #3fa63a;
+* border-title-green: #2d8429;
+**/
+
+#grey-backdrop{
+    background-color: rgba(50, 50 , 50, .7);
+    display: block;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 0px;
+    height: 0px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0px;
+    z-index: 99999;
+}
+
+#grey-backdrop.gh-non-collapsed{
+    display: block;
+
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0px;
+}
+
+.ellak-contributors.title.text{
+    font-size: 34px;
+    font-weight: 300;
+}
+
+.ellak-contributors.sort-controls{
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 5px;
+
+}
+
+.ellak-contributors.sort-controls.topothesia-select{
+    font-size: 14px;
+}
+
+.ellak-contributors.sort-controls.sort-control-line{
+    display: block;
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
+
+.ellak-github-contributors.github_contributors-query-details.main-wrapper{
+    font-size: 14px;
+    margin-top: 7px;
+}
+
+.ellak-contributors.ellak-disabled{
+    pointer-events: none;
+    cursor: default;
+    font-style: italic;
+}
+
+.ellak-contributors.ellak-disabled .text{
+    color: grey;
+}
+
+.ellak-contributors.contr-entry-set.main-wrapper{
+    margin-top: 17px;
+}
+
+.ellak-contributors.contr-entry.main-wrapper{
+    position: relative;
+    margin-top: 6px;
+    margin-bottom: 4px;
+/*    margin-left: 20px;*/
+}
+
+.ellak-contributors.contr-entry.title-text-wrapper{
+    background-color: #3fa63a;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 6px;
+    border-color: #2d8429;
+}
+.ellak-contributors.contr-entry.title-text{
+    color: white;
+    font-weight: 600;
+    font-style: oblique;
+    margin-left: 10px;
+}
+
+.ellak-contributors.contr-entry.details-container{
+/*    border-color: orange;
+    border-style: solid;
+    border-radius: 6px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-width: 1px;
+    border-top-color: rgba(0, 0, 0, 0);
+    margin-top: -11px;*/
+    z-index: -9999;
+}
+
+.ellak-contributors.contr-entry.details-wrapper{
+    /*margin-top: 10px;*/
+    background-color: #bbff7b;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.ellak-contributors.contr-entry.details-entry{
+    color: #395439;
+    margin-left: 6px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.ellak-contributors.contr-entry.details-label{
+    color: #487845;
+}
+
+.ellak-contributors.contr-entry.details-value{
+    color: #395439;
+    font-weight: 500;
+}
+
+.ellak-contributors.contr-entry.contributor-link > span{
+    color: #1F9E1F;
+}
+
+.ellak-contributors.paging-buttons.ellak-container{
+    position: relative;
+    
+}
+
+.ellak-contributors.paging-buttons.ellak-main-wrapper{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ellak-contributors.paging-buttons.ellak-button, .ellak-contributors.paging-buttons.ellak-button > a{
+    display: inline-block;
+}
+
+.ellak-contributors.contributor-avatar{
+    width: 60px;
+    height: 60px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(220, 220, 220, .6);
+    border-radius: 4px;
+}
+
+.ellak-contributors.contributor-username-label{
+    overflow: hidden;
+}
+
+.ellak-contributors.data-info{
+    font-size: 12px;
+    font-style: oblique;
+    color: grey;
+    padding-left: 15px;
+}
+div.ellak-contributors.data-info{
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+
+.ellak-contributors.data-info.repo-link:hover, .ellak-contributors.data-info.repo-link:focus, .ellak-contributors.data-info.repo-link:active {
+    color: #000000;
+}
+
+.ellak-contributors.data-info.repo-link{
+    display: block;
+    color: #1e73be;
+}
+
+.ellak-contributos.data-info::before{
+    content: "--";
+}
